@@ -5,8 +5,8 @@ def add_two_numbers(a, b):
 
 if __name__ == "__main__":
     # Ask the user for input
-    num1 = float(input("Enter first number: "))
-    num2 = float(input("Enter second number: "))
+    num1 = float(input("Enter first No: "))
+    num2 = float(input("Enter second No: "))
 
     # Add the numbers
     result = add_two_numbers(num1, num2)
