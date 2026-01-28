@@ -35,4 +35,4 @@ if __name__ == "__main__":
     # Display the result
     print("The Product is:", result)
 
->>>>>>> f0ef8037eaf67d8e87d2de7d238f773e38663100
+
