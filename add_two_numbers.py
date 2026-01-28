@@ -2,6 +2,10 @@ def add_two_numbers(a, b):
     """Return the sum of two numbers."""
     return a + b
 
+def difference_two_numbers(a, b):
+    """Return the difference of two numbers."""
+    return a - b
+
 
 if __name__ == "__main__":
     # Ask the user for input
@@ -10,6 +14,8 @@ if __name__ == "__main__":
 
     # Add the numbers
     result = add_two_numbers(num1, num2)
-
-    # Display the result
     print("The sum is:", result)
+
+    result = difference_two_numbers(num1, num2)
+    # Display the result
+    print("The difference is:", result)
